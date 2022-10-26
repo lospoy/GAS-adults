@@ -3532,25 +3532,31 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 @media screen and (max-width: 1280px) {
-  #main > .post {
-    padding: 6rem 4rem 4rem 4rem ;
+    #main > .post {
+      padding: 6rem 4rem 4rem 4rem ;
+    }
+    #main > .post.schedule {
+      padding: 6rem ;
   }
-}
+  }
 
-@media screen and (max-width: 736px) {
-  #main > .post {
-    padding: 2rem 1rem 1rem 1rem ;
+  @media screen and (max-width: 736px) {
+    #main > .post {
+      padding: 2rem 1rem 1rem 1rem ;
+    }
+    #main > .post header.major > .date {
+      margin-top: -1rem;
+      margin-bottom: 2rem;
+    }
+    #main > .post header.major > h1, #main > .post header.major h2 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+      margin: 0 0 1.5rem 0;
+    }
+    #main > .post.schedule {
+      padding: 1rem ;
   }
-  #main > .post header.major > .date {
-    margin-top: -1rem;
-    margin-bottom: 2rem;
   }
-  #main > .post header.major > h1, #main > .post header.major h2 {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    margin: 0 0 1.5rem 0;
-  }
-}
 
 #main > .posts {
   display: -moz-flex;
