@@ -5,8 +5,8 @@ By Carlos Campoy
 
 Credits:
 	HTML5Up:
-        CCA 3.0 license
-        html5up.net | @ajlkn
+		CCA 3.0 license
+		html5up.net | @ajlkn
 	Icons:
 		Font Awesome (fontawesome.io)
 	Other:
