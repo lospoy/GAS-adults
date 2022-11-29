@@ -2011,6 +2011,19 @@ button.primary,
           box-shadow: none;
   color: #ffffff !important;
 }
+.button.trial {
+  background-color: #ef9518;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #ffffff !important;
+}
+.button.trial:hover {
+  background-color: #ffae3c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #000000 !important;
+}
+
 
 input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
