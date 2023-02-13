@@ -1,4 +1,4 @@
-Gentle Art Studio
+# <a href="https://gentleartstudio.com">Gentle Art Studio</a>
 NYC's premier Brazilian Jiu Jitsu Studio Website
 
 By Carlos Campoy
