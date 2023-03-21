@@ -2646,19 +2646,51 @@ ul.divided li:first-child {
   padding-top: 0;
 }
 
-dl {
-  margin: 0 0 2rem 0;
-}
-
 dl dt {
   display: block;
-  font-weight: 600;
-  margin: 0 0 1rem 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: -.5rem;
 }
 
 dl dd {
   margin-left: 2rem;
 }
+
+dl p {
+  line-height: 1.6rem;
+}
+
+dl .description {
+  padding: 0 .6rem;
+  border-radius: .1rem;
+}
+
+dl .description.bjj {
+  border-left: 15px solid #e1891a;
+  margin-top: -2rem
+}
+dl .description.focus {
+  border-left: 15px solid #0d896f;
+}
+dl .description.nogi {
+  border-left: 15px solid #7d7d7d;
+}
+dl .description.lab {
+  border-left: 15px solid #7b6524;
+}
+dl .description.open {
+  border-left: 15px solid #f8de51;
+}
+dl .description.yoga {
+  border-left: 15px solid black;
+}
+dl .description.last {
+  padding-top: 2rem;
+}
+
+
+
 
 ul.divided li {
   border-top-color: #eeeeee;
