@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,700,300italic,700italic|Source+Sans+Pro:900");
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -139,7 +139,7 @@ body {
 }
 
 body, input, select, textarea {
-  font-family: "Merriweather", Georgia, serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   line-height: 2.375;
@@ -2194,7 +2194,7 @@ input[type="radio"] + label {
   display: inline-block;
   font-size: 1rem;
   letter-spacing: 0;
-  font-family: "Merriweather", Georgia, serif;
+  font-family: "Montserrat", Georgia, sans-serif;
   text-transform: none;
   font-weight: 300;
   padding-left: 2.8rem;
@@ -2664,6 +2664,8 @@ dl p {
 dl .description {
   padding: 0 .6rem;
   border-radius: .1rem;
+  font-family: Montserrat;
+  word-spacing: .1rem;
 }
 
 dl .description.bjj {
