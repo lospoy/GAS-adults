@@ -2689,6 +2689,11 @@ dl .description.last {
   padding-top: 2rem;
 }
 
+@media screen and (max-width: 736px) {
+  dl .description.bjj {
+    margin-top: 0rem
+  }
+}
 
 
 
